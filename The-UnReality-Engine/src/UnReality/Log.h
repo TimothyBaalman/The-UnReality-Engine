@@ -19,7 +19,7 @@ namespace UnReality {
 		static std::shared_ptr<spdlog::logger> s_clientLogger;
 	};
 }
-//TODO Wrap every define in an if a dist to set to an empty define
+// TODO Wrap every define in an if a dist to set to an empty define
 // Core Log Macros
 #define UR_CORE_TRACE(...)  ::UnReality::Log::GetCoreLogger()->trace(__VA_ARGS__)
 #define UR_CORE_INFO(...)   ::UnReality::Log::GetCoreLogger()->info(__VA_ARGS__)
