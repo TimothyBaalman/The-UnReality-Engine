@@ -1,0 +1,3 @@
+[submodule "The-UnReality-Engine/vendor/spdlog"]
+	path = The-UnReality-Engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
