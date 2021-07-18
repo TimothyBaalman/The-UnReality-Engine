@@ -1,5 +1,7 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+﻿# Directories
+.vs/
+bin/
+bin-interm/
 
-/.vs/The-UnReality-Engine/v16
+# Files
+*.user
