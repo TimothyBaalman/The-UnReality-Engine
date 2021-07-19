@@ -1,6 +1,7 @@
 #pragma once
 
 #include "Core.h"
+#include "Events/Event.h"
 //Macros will be shortened 
 namespace UnReality {
 

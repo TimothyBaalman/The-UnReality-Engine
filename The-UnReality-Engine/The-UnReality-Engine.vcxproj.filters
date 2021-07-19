@@ -4,6 +4,9 @@
     <Filter Include="UnReality">
       <UniqueIdentifier>{E25590BE-4EC0-4435-97FE-F5DA03A8228A}</UniqueIdentifier>
     </Filter>
+    <Filter Include="UnReality\Events">
+      <UniqueIdentifier>{864FD2F5-7248-F147-9B7A-D6CC87D2D053}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\UnReality.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\UnReality\EntryPoint.h">
       <Filter>UnReality</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnReality\Events\ApplicationEvent.h">
+      <Filter>UnReality\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnReality\Events\Event.h">
+      <Filter>UnReality\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnReality\Events\KeyEvent.h">
+      <Filter>UnReality\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnReality\Events\MouseEvent.h">
+      <Filter>UnReality\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\UnReality\Log.h">
       <Filter>UnReality</Filter>
